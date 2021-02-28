@@ -3,6 +3,8 @@ This API data pack adds recipes to items with NBT (Named Binary Tag). Inside the
 Make sure in selected resource packs this is under the following packs:
 
 ## Add the button to your website.
+### PREVIEW *(markdown)*
+[![LPS Recipe API](https://i.ibb.co/kQyP14r/lps-recipe-api-button.png)]( https://www.curseforge.com/minecraft/customization/legopitstops-recipe-core-datapack)
 
 ### HTML
 ```html
