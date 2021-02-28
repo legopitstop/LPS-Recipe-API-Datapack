@@ -1,0 +1,2 @@
+# About These Files:
+These are each side of the custom crafting table, you can change the texture or model. If you just change the textures you can delete the model, as the API resourcepack has it built in.

@@ -1,0 +1,2 @@
+# About these files:
+These files are needed to run the recipes and other ticking files. Make sure to change the `123456` to a random number or change the overall name, this way it is unique and will not effect any other packs that use this API. Inside each file their is a description to better explain what each file does.

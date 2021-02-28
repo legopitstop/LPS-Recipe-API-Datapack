@@ -1,0 +1,6 @@
+# About These Files:
+This is similar to the recipe_tick file but instead of looking for items it places the items inside the block.  You can find a generator for this via my website (link below) Make sure to change the page number each recipe you add. but I would recomend keeping your category the same throughout your pack Also would check through all my packs to make sure that you don't override any of my categories as I havent implemented a UUID system (if even possable) or make sure users know that it isnt compatable with any of my packs. 
+After you have added your recipe(s) you have to tell the API when the last page is, that way it will bring the user back to the home screen/beginning recipe. You can do this simply by adding one to your last recipe page (ex: my last page is 5 so I would put `scoreboard players set category.X maxpages 6`). 
+Were not done yet,  you also have to tell the API to not run when it isnt needed as it could cause issues in some instances. You can simply place your category number that your using (ex: `execute if score page category.<num> matches 1.. run scoreboard players set boolean recipebookcheck 0` )
+
+### [Recipe Generator](https://legopitstop.weebly.com/tools.html)

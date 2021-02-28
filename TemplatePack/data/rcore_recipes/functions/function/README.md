@@ -1,0 +1,3 @@
+# About these files:
+This file is where all your recipes are located, it looks complex at first but its semi simple once you understand how it works. You can find a recipe generator (Via Google Sheets) at my website (link below). The recipe output must go into a seperate output recipe as you need to clear the table otherwise the user will get spammed with items.
+### [Recipe Generator](https://legopitstop.weebly.com/tools.html)

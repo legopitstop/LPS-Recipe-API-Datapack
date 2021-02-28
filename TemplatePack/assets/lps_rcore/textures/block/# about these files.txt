@@ -1,8 +1,0 @@
-About These Files;
-
-These are each side of the custom crafting table,
-you can change the texture or model. if you just chage
-the textures you can delete the model, as the API resourcepack
-has it built in.
-
-Discord: Legopitstop#4774
