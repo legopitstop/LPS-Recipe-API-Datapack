@@ -1,0 +1,9 @@
+particle enchant ~ ~ ~ 2 4 0 1 0 normal
+particle enchant ~ ~ ~ -2 4 0 1 0 normal
+particle enchant ~ ~ ~ 0 4 2 1 0 normal
+particle enchant ~ ~ ~ 0 4 -2 1 0 normal
+particle enchant ~ ~ ~ 2 4 2 1 0 normal
+particle enchant ~ ~ ~ -2 4 -2 1 0 normal
+particle enchant ~ ~ ~ 2 4 -2 1 0 normal
+particle enchant ~ ~ ~ -2 4 2 1 0 normal
+particle flash ~ ~ ~ 0 4 0 1 0 normal

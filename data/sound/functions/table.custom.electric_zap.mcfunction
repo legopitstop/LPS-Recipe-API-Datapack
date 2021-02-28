@@ -1,0 +1,1 @@
+playsound minecraft:block.table.custom.electric_zap block @p ~ ~ ~ 20 1

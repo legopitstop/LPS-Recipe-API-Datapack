@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/arrow"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 900}, "model": "lps_rcore:gui/recipe_book_table_back"},
+		{ "predicate": {"custom_model_data": 901}, "model": "lps_rcore:gui/recipe_book_table_next"}
+	]
+}

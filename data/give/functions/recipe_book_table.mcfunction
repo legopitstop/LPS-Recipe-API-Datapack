@@ -1,0 +1,1 @@
+give @p minecraft:armor_stand{display:{Name:"{\"translate\":\"block.lps:recipe_book_table\"}",Lore:["{\"translate\":\"lore.lps:block\"}"]},CustomModelData:696,Marker:1b,EntityTag:{NoGravity:1b,Small:1b,Invisible:1b,CustomName:"{\"text\":\"LPS_Recipe\"}"}} 1

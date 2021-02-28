@@ -1,0 +1,17 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "version": [2, 6, 0],
+        "description": [
+            {
+                "text": "Custom Crafting Table!\n", 
+                "color":"gray"
+            },
+            {
+                "text": "Legopitstop", 
+                "color":"#e86608",
+                "underlined": "true"
+            }
+        ]
+    }
+  }

@@ -1,0 +1,1 @@
+playsound minecraft:block.wood.place block @p ~ ~ ~ 30 1

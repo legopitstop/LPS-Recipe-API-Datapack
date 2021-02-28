@@ -1,0 +1,37 @@
+{
+  "block.table.success": {
+    "sounds": [
+      "block/table/success"
+    ]
+  },
+  "block.table.custom.bang": {
+    "sounds": [
+      "block/table/custom/bang"
+    ]
+  },
+  "block.table.custom.steel_grind": {
+    "sounds": [
+      "block/table/custom/steel_grind"
+    ]
+  },
+  "block.table.custom.stone_grind": {
+    "sounds": [
+      "block/table/custom/stone_grind"
+    ]
+  },
+  "block.table.custom.ting": {
+    "sounds": [
+      "block/table/custom/ting"
+    ]
+  },
+  "block.table.custom.wood_saw": {
+    "sounds": [
+      "block/table/custom/wood_saw"
+    ]
+  },
+  "block.table.custom.electric_zap": {
+    "sounds": [
+      "block/table/custom/electric_zap"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "block/light_gray_stained_glass"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 900}, "model": "lps_rcore:gui/recipe_book_table_background"},
+		{ "predicate": {"custom_model_data": 901}, "model": "lps_rcore:gui/recipe_book_table_craft"}
+	]
+}

@@ -1,0 +1,1 @@
+playsound minecraft:block.table.success block @p ~ ~ ~ 20 1

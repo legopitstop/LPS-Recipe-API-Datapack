@@ -1,0 +1,7 @@
+{
+    "__comment1": "LPS Rcore API: this is if your item has a custom model, only display gui is needed, not a player item.",
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "lps_rcore:item/category3"
+    }
+}

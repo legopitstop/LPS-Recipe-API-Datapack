@@ -1,0 +1,11 @@
+{
+    "__comment": "comment here",
+    "gui_light": "front",
+    "display": {
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        }
+    }
+}

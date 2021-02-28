@@ -1,0 +1,1 @@
+playsound minecraft:block.table.custom.bang block @p ~ ~ ~ 20 1

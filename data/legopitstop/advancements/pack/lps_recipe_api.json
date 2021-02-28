@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand",
+            "nbt": "{CustomModelData:666}"
+        },
+        "title": {
+            "text": "LPS Recipe API",
+            "color": "yellow",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Adds a custom crafting table for all legopitstop packs.",
+            "color": "white",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "legopitstop:pack/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
