@@ -1,7 +1,6 @@
 {
     "replace": false,
-    "values": 
-    [
-        "rcore_recipes:tick_123456"    
+    "values": [
+        "rcore_recipes:tick_123456"
     ]
 }
