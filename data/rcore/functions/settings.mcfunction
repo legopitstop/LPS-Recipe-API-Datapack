@@ -16,10 +16,10 @@ execute if score reducelag apisettings matches 1.. run tellraw @s ["",{"translat
 
 # Custom Number settings
 execute if score lagblocks apisettings matches 5 run tellraw @s ["",{"translate":"rcore.gui.pen","clickEvent":{"action":"suggest_command","value":"/scoreboard players set lagblocks apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 5"}},{"translate":"rcore.gui.lagblocks.desc"}]
-execute unless score lagblocks apisettings matches 5 run tellraw @s ["",{"translate":"rcore.gui.pen_edited","clickEvent":{"action":"run_command","value":"/tellraw @s [\"\",{\"text\":\"Max. Tree Size : \"},{\"score\":{\"name\":\"v\",\"objective\":\"apisettings\"}}]"},"hoverEvent":{"action":"show_text","value":"Click to see set number"},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set lagblocks apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 5"}},{"translate":"rcore.gui.lagblocks.desc"}]
+execute unless score lagblocks apisettings matches 5 run tellraw @s ["",{"translate":"rcore.gui.pen_edited","clickEvent":{"action":"suggest_command","value":"/scoreboard players set lagblocks apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 5"}},{"translate":"rcore.gui.lagblocks.desc"}]
 
 execute if score refresh apisettings matches 3 run tellraw @s ["",{"translate":"rcore.gui.pen","clickEvent":{"action":"suggest_command","value":"/scoreboard players set refresh apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 3"}},{"translate":"rcore.gui.refresh.desc"}]
-execute unless score refresh apisettings matches 3 run tellraw @s ["",{"translate":"rcore.gui.pen_edited","clickEvent":{"action":"run_command","value":"/tellraw @s [\"\",{\"text\":\"Max. Tree Size : \"},{\"score\":{\"name\":\"refresh\",\"objective\":\"apisettings\"}}]"},"hoverEvent":{"action":"show_text","value":"Click to see set number"},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set refresh apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 3"}},{"translate":"rcore.gui.refresh.desc"}]
+execute unless score refresh apisettings matches 3 run tellraw @s ["",{"translate":"rcore.gui.pen_edited","clickEvent":{"action":"suggest_command","value":"/scoreboard players set refresh apisettings "},"hoverEvent":{"action":"show_text","value":"Default: 3"}},{"translate":"rcore.gui.refresh.desc"}]
 
 # reset
 tellraw @s {"text":"\n"}

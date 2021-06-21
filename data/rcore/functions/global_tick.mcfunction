@@ -12,18 +12,29 @@ execute if score refresh apisettings matches ..0 run tellraw @p {"translate":"rc
 execute if score refresh apisettings matches ..0 run scoreboard players set refresh apisettings 3
 
 # reduce lag
-execute at @e[type=armor_stand,name="Crafting Table"] run scoreboard players set @e[type=armor_stand,name="Crafting Table"] craftingtable 1
-execute at @e[type=armor_stand,name="Recipe Book Table"] run scoreboard players set @e[type=armor_stand,name="Recipe Book Table"] recipebook 1
+execute as @e[tag=custom_crafting_table] run scoreboard players set @s craftingtable 1
+execute as @e[tag=recipe_book_table] run scoreboard players set @s recipebook 1
 execute if score reducelag apisettings matches 1.. run function rcore:data/reduce_lag
 
-#> Recipe Book Table
-# tick
-execute at @e[type=armor_stand,name="LPS_Recipe"] run function rcore:recipe_table/place
-execute at @e[type=armor_stand,name="Recipe Book Table"] run execute if block ~ ~ ~ air run function rcore:recipe_table/break
+# OLD Blocks
+## Recipe Book Table
+#execute as @e[type=armor_stand,name="LPS_Recipe"] at @s run function rcore:recipe_table/place
+#execute as @e[type=armor_stand,name="Recipe Book Table"] at @s run function rcore:recipe_table/break
+## Crafting Table
+#execute as @e[type=armor_stand,name="LPS_Table"] at @s run function rcore:crafting_table/place
+#execute as @e[type=armor_stand,name="Crafting Table"] at @s run function rcore:crafting_table/break
 
-#> Crafting Table
-# tick
-execute at @e[type=armor_stand,name="LPS_Table"] run function rcore:crafting_table/place
-execute at @e[type=armor_stand,name="Crafting Table"] run execute if block ~ ~ ~ air run function rcore:crafting_table/break
+# NEW Blocks
+execute as @e[tag=set_recipe_book_table] at @s run function rcore:blocks/set_recipe_book_table
+execute as @e[tag=recipe_book_table] at @s run function rcore:blocks/recipe_book_table
+
+execute as @e[tag=set_custom_crafting_table] at @s run function rcore:blocks/set_custom_crafting_table
+execute as @e[tag=custom_crafting_table] at @s run function rcore:blocks/custom_crafting_table
+
 # Rename item to "Custom Crafting Table"
-execute as @a[nbt={SelectedItem:{id:"minecraft:crafting_table",tag:{display:{Name:"{\"text\":\"Custom Crafting Table\"}"}}}}] run replaceitem entity @p weapon.mainhand armor_stand{display:{Name:"{\"text\":\"Crafting Table\",\"italic\":false}",Lore:["{\"text\":\"[Block]\",\"color\":\"dark_gray\",\"italic\":false}"]},CustomModelData:666,Craftingtable:1,EntityTag:{NoGravity:1b,Small:1b,Invisible:1b,CustomName:"{\"text\":\"LPS_Table\"}"}} 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:crafting_table",tag:{display:{Name:'{"text":"Custom Crafting Table"}'}}}}] at @s run function rcore:data/renamed_crafting_table
+execute as @a[nbt={SelectedItem:{id:"minecraft:crafting_table",tag:{display:{Name:'{"text":"custom crafting table"}'}}}}] at @s run function rcore:data/renamed_crafting_table
+execute as @a[nbt={SelectedItem:{id:"minecraft:crafting_table",tag:{display:{Name:'{"text":"CUSTOM CRAFTING TABLE"}'}}}}] at @s run function rcore:data/renamed_crafting_table
+
+# Updater
+function rcore:updater

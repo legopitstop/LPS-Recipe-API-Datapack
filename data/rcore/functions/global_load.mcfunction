@@ -4,6 +4,9 @@ tellraw @p {"translate":"lps.reload.message"}
 scoreboard objectives add recipepage dummy "recipepage"
 execute unless score page recipepage matches 1.. run scoreboard players set page recipepage 0
 
+# The number of crafting table the user renamed.
+scoreboard objectives add CraftingCount dummy
+
 # v2.4+ New recipe book category scores
 scoreboard objectives add category.0 dummy "category.0"
 scoreboard objectives add category.1 dummy "category.1"

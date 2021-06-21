@@ -1,0 +1,17 @@
+{
+	"parent": "minecraft:item/template_spawn_egg",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 666
+			},
+			"model": "rcore:block/custom_crafting_table"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 696
+			},
+			"model": "rcore:block/recipe_book_table"
+		}
+	]
+}

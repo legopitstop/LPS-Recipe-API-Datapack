@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "rcore:global_tick",
-        "rcore:recipe_table/tick",
         "rcore_recipes:tick_182903"
     ]
 }

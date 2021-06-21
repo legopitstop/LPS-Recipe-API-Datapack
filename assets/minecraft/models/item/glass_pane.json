@@ -4,20 +4,95 @@
 		"layer0": "block/glass"
 	},
 	"overrides": [
-		{ "predicate": {"custom_model_data": 900}, "model": "lps_rcore:item/category0"},
-		{ "predicate": {"custom_model_data": 901}, "model": "lps_rcore:item/category1"},
-		{ "predicate": {"custom_model_data": 902}, "model": "lps_rcore:item/category2"},
-		{ "predicate": {"custom_model_data": 903}, "model": "lps_rcore:item/category3"},
-		{ "predicate": {"custom_model_data": 904}, "model": "lps_rcore:item/category4"},
-		{ "predicate": {"custom_model_data": 905}, "model": "lps_rcore:item/category5"},
-		{ "predicate": {"custom_model_data": 906}, "model": "lps_rcore:item/category6"},
-		{ "predicate": {"custom_model_data": 907}, "model": "lps_rcore:item/category7"},
-		{ "predicate": {"custom_model_data": 908}, "model": "lps_rcore:item/category8"},
-		{ "predicate": {"custom_model_data": 909}, "model": "lps_rcore:item/category9"},
-		{ "predicate": {"custom_model_data": 910}, "model": "lps_rcore:item/category10"},
-		{ "predicate": {"custom_model_data": 911}, "model": "lps_rcore:item/category11"},
-		{ "predicate": {"custom_model_data": 912}, "model": "lps_rcore:item/category12"},
-		{ "predicate": {"custom_model_data": 913}, "model": "lps_rcore:item/category13"},
-		{ "predicate": {"custom_model_data": 914}, "model": "lps_rcore:item/category14"}
+		{
+			"predicate": {
+				"custom_model_data": 900
+			},
+			"model": "rcore:item/category0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 901
+			},
+			"model": "rcore:item/category1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 902
+			},
+			"model": "rcore:item/category2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 903
+			},
+			"model": "rcore:item/category3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 904
+			},
+			"model": "rcore:item/category4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 905
+			},
+			"model": "rcore:item/category5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 906
+			},
+			"model": "rcore:item/category6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 907
+			},
+			"model": "rcore:item/category7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 908
+			},
+			"model": "rcore:item/category8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 909
+			},
+			"model": "rcore:item/category9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 910
+			},
+			"model": "rcore:item/category10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 911
+			},
+			"model": "rcore:item/category11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 912
+			},
+			"model": "rcore:item/category12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 913
+			},
+			"model": "rcore:item/category13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 914
+			},
+			"model": "rcore:item/category14"
+		}
 	]
 }

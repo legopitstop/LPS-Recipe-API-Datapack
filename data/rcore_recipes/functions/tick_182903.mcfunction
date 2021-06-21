@@ -1,3 +1,5 @@
-#> '/function rcore_recipes:tick.mcfunction'
-# new recipes/working V V V
-execute at @e[type=armor_stand,name="Crafting Table"] run function rcore_recipes:function/recipe_tick_589558
+# Desc: The main tick file for rcore_recipes (this must have a random name at the end.)
+#
+# Called By: #minecraft:tick
+
+execute as @e[tag=custom_crafting_table] at @s run function rcore_recipes:function/recipe_tick_589558

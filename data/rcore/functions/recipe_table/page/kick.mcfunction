@@ -2,9 +2,8 @@
 #
 # Called By: nan
 
-execute at @e[distance=...5,type=armor_stand,name="Recipe Book Table"] run setblock ~ ~ ~ air
-setblock ~ ~ ~ barrel[facing=down]{CustomName:'{"translate":"container.recipe_table"}'} replace
-function rcore:recipe_table/page/home
+setblock ~ ~ ~ air
+summon marker ~ ~ ~ {Tags:["set_recipe_book_table"]}
 
 scoreboard players set page recipepage 0
 scoreboard players set page category.0 0

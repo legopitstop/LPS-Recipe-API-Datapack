@@ -1,1 +1,5 @@
-give @p minecraft:armor_stand{display:{Name:"{\"translate\":\"block.lps:recipe_book_table\"}",Lore:["{\"translate\":\"lore.lps:block\"}"]},CustomModelData:696,Marker:1b,EntityTag:{NoGravity:1b,Small:1b,Invisible:1b,CustomName:"{\"text\":\"LPS_Recipe\"}"}} 1
+# Desc: Give the custom block
+#
+# Called By: Player | Function
+
+summon item ~ ~1 ~ {Item:{id:"minecraft:sheep_spawn_egg",Count:1b,tag:{id:"rcore:recipe_book_table",display:{Name:'{"translate":"block.rcore.recipe_book_table","italic":false}'},CustomModelData:696,EntityTag:{id:"minecraft:marker",Tags:["set_recipe_book_table"]}}}}

@@ -1,0 +1,15 @@
+{
+    "parent": "rcore:gui/template_gui_item",
+    "textures": {
+        "layer0": "rcore:gui/exit_icon"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 16, 0 ], 
+            "faces": {
+                "south": { "texture": "#layer0", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}
