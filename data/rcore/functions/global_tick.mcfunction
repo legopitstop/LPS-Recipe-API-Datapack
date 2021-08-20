@@ -18,8 +18,8 @@ execute if score reducelag apisettings matches 1.. run function rcore:data/reduc
 
 # OLD Blocks
 ## Recipe Book Table
-#execute as @e[type=armor_stand,name="LPS_Recipe"] at @s run function rcore:recipe_table/place
-#execute as @e[type=armor_stand,name="Recipe Book Table"] at @s run function rcore:recipe_table/break
+# execute as @e[type=armor_stand,name="LPS_Recipe"] at @s run function rcore:recipe_table/place
+# execute as @e[type=armor_stand,name="Recipe Book Table"] at @s run function rcore:recipe_table/break
 ## Crafting Table
 #execute as @e[type=armor_stand,name="LPS_Table"] at @s run function rcore:crafting_table/place
 #execute as @e[type=armor_stand,name="Crafting Table"] at @s run function rcore:crafting_table/break
