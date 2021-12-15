@@ -1,0 +1,35 @@
+{
+    "$schema": "https://legopitstop.github.io/Update_Checker/schema.json",
+    "$id": "https://raw.githubusercontent.com/legopitstop/LPS-Recipe-API-Datapack/main/update.json",
+    "homepage": "https://www.curseforge.com/minecraft/customization/legopitstops-recipe-core-datapack",
+    "1.18": {
+        "2.8.0-beta1": "# CHANGELOG v2.8.0-beta1\n## General\n- Updated for 1.18, Should also work for 1.17, but not 1.16 and older.\n- Rewrote entire pack, If you find any issues feel free to submit a bug report.\n- Removed custom sounds.\n- Updated to use my new datapack registering system\n## Known Issues\n- Recipe book table does not work properly, This will get added in the next version."
+    },
+    "1.17": {
+        "2.7.1": "# CHANGELOG v2.7.1\n## General\n- You can place the recipe items for Recipe Book Table in any column slot. (left 3 slots, middle 3 or right 3)  \n## Bug Fixes\n- [#2](https://github.com/legopitstop/LPS-Recipe-API-Datapack/issues/5) Custom Crafting Table dropping when I break Vanilla crafting table ",
+        "2.7.0": "# CHANGELOG v2.7.0\n## General\n- Updated for 1.17\n- template packs are updated for this version (v2.7.0)\n- There are some slight changes with the API, mainly with the entity selectors and namespaces. Check the template for more.\n- Note that this update has not been multiplayer tested, Play at your own risk.\n- You can now place other blocks on-top of the custom blocks, Note that their model does become darker.\n- When you renamed multiple crafting tables to `Custom Crafting Table` It will now give you back that many. It will throw an error if you renamed more than 16.\n- Custom crafting table has new default textures, Looks like a stone crafting table.\n- When you rename a crafting table (to get the custom crafting table) you can use any of the following formats.\n  - `Custom Crafting Table` (Minecraft caps)\n  - `custom crafting table` (all lowercase)\n  - `CUSTOM CRAFTING TABLE` (all uppercase)\n- When you break the block it will now drop its item instead of giving the item to the player, same for crafting the Recipe Book Table.\n## Bug Fixes\n- [#2](https://github.com/legopitstop/LPS-Recipe-API-Datapack/issues/2) Placing the custom block on any non-full block will get replaced\n- [#4](https://github.com/legopitstop/LPS-Recipe-API-Datapack/issues/4) Bug crafting table replace items."
+    },
+    "1.16": {
+        "2.6": "# V2.6\n+ Updated for 1.16 Snapshots (only works for 1.16, use older versions for 1.15 and lower)\n+ Missing datapack system for other datapacks.\n+ changed resourcepack assets around, models and textures now use lps_rcore: instead of minecraft:\n+ New recipe table block UI system.\n+ Recipe table will not dect clicks unless it is open, Improves TPS/Server lag\n+ Resourcepack: fixed some errors that came up in game output log.\n+ Fixed glass pane texture\n+ Added new UI look to recipe book table (will adjust background off of demo_background.png, meaning RP's will adjust to it.)\n\n!! Will not work with packs that use older versions of this API, Use the template pack for help when updating or send a message on discord Legopitstop#4774\n\nTemplate RP & DP has been updated for V2.6!"
+    },
+    "1.15": {
+        "2.5": "# V2.5\n## Added settings\nT/F-reduce lag - Limit the number of tables to reduce lag.\n- reduce lag blocks - the number of blocks that are allowed.\n+ Now uses lang file system+ Use a random number Min:100000 Max:999999 for rcore_recipe: tick_#####, pages_#####, and recipe tick_#####, to make it work with other packs (https://www.random.org/)\n+ Added \"electric zap\" custom sound\n+ Added alternate Recipe book table recipe (can use dropper or dispenser)\n+ Cleaned up files, added desc, and call by in most of the files.\n\nThe template pack has not been updated yet.",
+        "2.4": "# V2.4\n+ When a player is already in the recipe book table it will lock it for all other players\n+ Added all items to illegal items (it now uses #rcore:illegal_items)\n+ Added categories to recipe book table\n+ Added settings | creative items & refresh rate '/function rcore:settings' or '/function rcore:config'\n+ Updated template pack",
+        "2.3": "# V2.3\n+ Updated for 1.15.2 (still works for 1.14.4)\n+ Added recipe book table\n+ Custom crafting table is now rotatable for models/textures\n+ Added new sounds for more customizability (More Coming Soon!)\n+ Fixed a bug, breaking a table next to one another will break both."
+    },
+    "1.14": {
+        "2.2": "# V2.2\n+ added resourcepack (v2.1 was missing it)",
+        "2.1": "# V2.1\n- updated for vending machine pack.",
+        "2.0": "# V2.0\n- Fixed another bug (installing packs that need this API will not work)\n- new rcore_recipe tick system\n- updated for Charms 1.14+ [datapack]",
+        "1.9": "# V1.9\n- fixed bug (reloading pack will remove items in table)\n- changed pack name to \"LPS_Recipe_API\"\n- will recive a reload message \"LPS Recipe API Has successfully reloaded!\"\n- changed bio (pack and advancemnts)",
+        "1.8": "# V1.8\n- fixed a bug (able to remove table texture)\n- new crafting table model system (other packs are able to edit model/textures)\n- changed around sounds\n- new custom sound \"block.table.success\"\n- you will now only be able to rename regular crafting table to \"Custom Crafting Table\"",
+        "1.7": "# V1.7\nUpdated To the recent version of MoreFood pack"
+    },
+    "promos": {
+        "1.18-recommended": "2.8.0-beta1",
+        "1.17-recommended": "2.7.0",
+        "1.16-recommended": "2.6",
+        "1.15-recommended": "2.5",
+        "1.14-recommended": "2.2"
+    }
+}
