@@ -1,1 +1,0 @@
-playsound minecraft:block.table.custom.wood_saw block @p ~ ~ ~ 20 1

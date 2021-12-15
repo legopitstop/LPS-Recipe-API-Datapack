@@ -1,1 +1,0 @@
-playsound minecraft:block.table.custom.steel_grind block @p ~ ~ ~ 20 1

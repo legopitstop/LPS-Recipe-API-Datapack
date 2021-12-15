@@ -1,1 +1,0 @@
-playsound minecraft:block.wood.break block @p ~ ~ ~ 100 1

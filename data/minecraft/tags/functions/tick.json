@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "rcore:global_tick",
+        "rcore:pre_tick",
         "rcore_recipes:tick_182903"
     ]
 }

@@ -1,6 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "rcore:global_load"
-    ]
+   "replace": false,
+   "values": [
+       "legopitstop:rcore_load",
+       "rcore:main_load"
+   ]
 }
